@@ -5,19 +5,19 @@ public class Task2 {
 	{
 	Scanner sc=new Scanner(System.in);
 	int S1,S2,S3,S4,S5;
-	System.out.print("Marks of Subject1:");
+	System.out.print("Marks of Subject1: ");
 	S1=sc.nextInt();
-	System.out.print("Marks of Subject2:");
+	System.out.print("Marks of Subject2: ");
 	S2=sc.nextInt();
-	System.out.print("Marks of Subject3:");
+	System.out.print("Marks of Subject3: ");
 	S3=sc.nextInt();
-	System.out.print("Marks of Subject4:");
+	System.out.print("Marks of Subject4: ");
 	S4=sc.nextInt();
-	System.out.print("Marks of Subject5:");
+	System.out.print("Marks of Subject5: ");
 	S5=sc.nextInt();
 	int s=S1+S2+S3+S4+S5;
 	int avg=s/5;                            
-	System.out.println("Average marks:"+avg);
+	System.out.println("Average marks: "+avg);
 	if(avg>=90)
 	 System.out.print("Grade: A");        
 	else if(avg>=80&&avg<90)
